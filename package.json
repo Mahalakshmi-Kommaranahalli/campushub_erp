@@ -1,0 +1,20 @@
+{
+  "name": "campushub-nodejs",
+  "version": "1.0.0",
+  "description": "CampusHub College Management System converted from PHP/MySQL to Node.js/Express/MySQL while preserving the UI theme.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
