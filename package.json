@@ -1,0 +1,26 @@
+{
+  "name": "cryptography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "npm --prefix client run build",
+    "dev:backend": "node server/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "test": "node -e \"fetch('http://localhost:5000/api/stats').then(r=>r.json()).then(d=>console.log('API Operational:', d.success))\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  }
+}

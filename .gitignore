@@ -1,0 +1,16 @@
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# SQLite database files
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+
+# Generated certificates storage
+server/storage/certificates/*.pdf
+
+# Local environment
+.env
+.env.local
